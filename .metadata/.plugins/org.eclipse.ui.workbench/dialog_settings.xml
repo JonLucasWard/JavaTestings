@@ -8,15 +8,47 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item key="dialogHeight" value="-1"/>
-		<item key="dialogWidth" value="-1"/>
+		<item key="dialogHeight" value="669"/>
+		<item key="dialogWidth" value="829"/>
 		<list key="orderedElements">
+			<item value="org.eclipse.egit.ui.StagingView"/>
+			<item value="org.eclipse.ui.editors.preferencePages.QuickDiff"/>
+			<item value="org.eclipse.compare.internal.ComparePreferencePage"/>
+			<item value="org.eclipse.ui.window.preferences(preferencePageId=org.eclipse.ui.editors.preferencePages.QuickDiff)"/>
+			<item value="org.eclipse.egit.ui.InteractiveRebaseView"/>
+			<item value="org.eclipse.quickdiff.toggle"/>
+			<item value="org.eclipse.egit.ui.internal.preferences.SynchronizePreferencePage"/>
 		</list>
 		<list key="orderedProviders">
+			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.ui.preferences"/>
+			<item value="org.eclipse.ui.preferences"/>
+			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.ui.preferences"/>
 		</list>
 		<list key="textEntries">
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
 		</list>
 		<list key="textArray">
+			<item value="stag"/>
+			<item value="text compare"/>
+			<item value="merge"/>
+			<item value="dif"/>
+			<item value="git"/>
+			<item value="diff"/>
+			<item value="merg"/>
 		</list>
+	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="338"/>
+		<item key="DIALOG_Y_ORIGIN" value="27"/>
 	</section>
 </section>
