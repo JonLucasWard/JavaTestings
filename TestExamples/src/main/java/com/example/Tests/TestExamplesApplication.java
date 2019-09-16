@@ -11,5 +11,3 @@ public class TestExamplesApplication {
 	}
 
 }
-
-//hi I'm new
