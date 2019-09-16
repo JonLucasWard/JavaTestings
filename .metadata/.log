@@ -2522,3 +2522,25 @@ Caused by: java.nio.file.AccessDeniedException: C:\Users\Dell\git\JavaTestings\.
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-16 16:36:14.234
 !MESSAGE executing callback sts4.classpath.EWizbfvT SUCCESS [done]
+
+!ENTRY org.eclipse.equinox.security 1 0 2019-09-16 16:37:49.036
+!MESSAGE New keyring password generated. 
+
+!ENTRY org.eclipse.egit.core 4 0 2019-09-16 16:40:43.088
+!MESSAGE Pulling 1 repository
+!SUBENTRY 1 org.eclipse.egit.core 4 0 2019-09-16 16:40:43.088
+!MESSAGE Checkout conflict with files: 
+TestExamples/src/main/java/com/example/Tests/TestExamplesApplication.java
+!STACK 0
+org.eclipse.jgit.api.errors.CheckoutConflictException: Checkout conflict with files: 
+TestExamples/src/main/java/com/example/Tests/TestExamplesApplication.java
+	at org.eclipse.jgit.api.MergeCommand.call(MergeCommand.java:437)
+	at org.eclipse.jgit.api.PullCommand.call(PullCommand.java:399)
+	at org.eclipse.egit.core.op.PullOperation$PullJob.run(PullOperation.java:256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.jgit.errors.CheckoutConflictException: Checkout conflict with files: 
+TestExamples/src/main/java/com/example/Tests/TestExamplesApplication.java
+	at org.eclipse.jgit.dircache.DirCacheCheckout.doCheckout(DirCacheCheckout.java:518)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkout(DirCacheCheckout.java:486)
+	at org.eclipse.jgit.api.MergeCommand.call(MergeCommand.java:304)
+	... 3 more
